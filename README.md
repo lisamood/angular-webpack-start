@@ -8,3 +8,11 @@ $ cd my_demo
 $ npm install
 ```
 
+## Scripts
+
+All scripts are run with `npm run [script]`, for example: `npm run test`.
+
+* `build` - generate a minified build to dist folder
+* `dev` - start development server, try it by opening `http://localhost:3600/`
+
+See what each script does by looking at the `scripts` section in [package.json](./package.json).
